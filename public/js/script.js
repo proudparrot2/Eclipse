@@ -6,6 +6,21 @@ pageInput.addEventListener("keydown", function(event) {
 		document.getElementById("submit").click();
 	}
 });
+/*
+var searchBtn = document.getElementById("submit")
+
+searchBtn.addEventListener("click", function() {
+	let url = pageInput.value.trim();
+	if (!isUrl(url)) url = 'https://www.bing.com/search?q=' + url;
+	else if (!(url.startsWith('https://') || url.startsWith('http://'))) url = 'http://' + url;
+
+	document.getElementById("frame").src = url;
+}) */
+
+function isUrl(val) {
+	if (/^http(s?):\/\//.test(val) || val.includes('.') && val.substr(0, 1) !== ' ') return true;
+	return false;
+};
 
 // Home button
 
@@ -90,5 +105,3 @@ function updateFavicon() {
   localStorage.setItem('tabicon', faviconInput.value)
          
 }
-
-document.getElementById("frame").height = screen.height - 200

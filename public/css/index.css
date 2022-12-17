@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=DM+Sans&family=Source+Code+Pro&display=swap');
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "DM Sans";
+  text-align: center;
+}
+
+h1 { font-family: Verdana; }
+
+#submit, #urlInput { vertical-align: middle; } 
+
+#mainInput {
+  background-color: inherit;
+  color: inherit;
+  border: 1px solid white;
+  height: 30px;
+  width: 300px;
+  font-size: 15px;
+  font-family: "Source Code Pro";
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+#main, #games {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid white;
+  padding: 100px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.homeNavButton {
+  padding: 7px;
+  background-color: black;
+  color: inherit;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.urlButton {
+  background-color: black;
+  color: inherit;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+#search { vertical-align: middle; }
+
+h1, label { font-family: Verdana; font-size: 25px; padding-left: 20px; }
+
+
+#submit, #urlInput { vertical-align: middle; } 
+
+#pageInput {
+  background-color: inherit;
+  color: inherit;
+  border: 1px solid white;
+  height: 25px;
+  width: 600px;
+  font-size: 15px;
+  font-family: "Source Code Pro";
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.navButton {
+  padding: 7px;
+  background-color: black;
+  color: inherit;
+  border: none;
+  border-radius: 15px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.urlButton {
+  background-color: black;
+  color: inherit;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+#navButtons {
+  position: fixed;
+  right: 0;
+  padding: 15px;
+}
+
+#settings div {
+	text-align: center;
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: black;
+  padding: 20px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+select {
+  background-color: transparent;
+  font-size: inherit;
+  border: 1px solid white;
+  padding: 5px;
+  color: inherit;
+  width: 150px;
+  text-align: true;
+}
+
+option {
+  color: black;
+}
+
+.button {
+  padding: 8px;
+  background-color: black;
+  color: inherit;
+  border: 3px solid white;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 150px;
+}
+
+.settingsbtn {
+  height: 30px;
+  width: 30px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: inherit;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.settings {
+  background-color: inherit;
+  color: inherit;
+  border: 1px solid white;
+  height: 25px;
+  width: 120px;
+  font-size: 15px;
+  font-family: "Source Code Pro";
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.page {
+  height: 100%;
+}
